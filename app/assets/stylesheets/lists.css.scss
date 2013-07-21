@@ -1,0 +1,32 @@
+h1 {
+  font-size: 24px;
+}
+
+.list {
+  margin-bottom: 20px;
+  font-family: verdana;
+  .list-item {
+    font-size: 16px;
+    .list-options {
+      font-size: 12px;
+    }
+  }
+  .elements {
+    clear: both;
+    margin-top: 10px;
+    .todo {
+      font-size: 14px;
+      .todo-options {
+        font-size: 10px;
+      }
+    }
+    .list-element-done {
+      font-size: 14px;
+      color: #D3D3D3;
+    }
+  }
+}
+
+.button {
+  margin-bottom: 10px;
+}

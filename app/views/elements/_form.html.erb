@@ -1,0 +1,7 @@
+<%= simple_form_for Element.new(list_id: l.id), html: { class: "form-inline" } do |e| %>
+
+    <%= e.input :list_id, as: :hidden %>
+    <%= e.input_field :todo, placeholder: 'your to do item goes here', label: false %>
+    <%= e.submit 'add', class: 'btn' %>
+
+<% end %>
